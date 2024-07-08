@@ -1,0 +1,1 @@
+- On Hero.jsx rerender either entire Hero component or just Spline component when the window is resized
