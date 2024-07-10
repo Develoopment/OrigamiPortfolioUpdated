@@ -6,10 +6,10 @@ import AboutMe from "./Components/AboutMe"
 function App() {
 
   return (
-    <div className='pt-[12rem]'>
+    <div className='pt-[12rem] flex flex-col gap-28 lg:gap-40'>
       <Navbar />
 
-      <Hero additionalClasses={"px-24 mb-40"} />
+      <Hero additionalClasses={"px-24"} />
       <AboutMe />
     </div>
   )

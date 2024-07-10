@@ -16,7 +16,7 @@ const Hero = ({additionalClasses}) => {
 
 
     return(
-        <div className={`${additionalClasses}`}>
+        <div className={`${additionalClasses} h-[48rem]`}>
 
             <div className="lg:flex lg:flex-row-reverse gap-20 lg:text-left text-center">
 
