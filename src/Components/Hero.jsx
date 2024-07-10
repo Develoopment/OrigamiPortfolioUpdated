@@ -3,7 +3,7 @@ import {CTASvg} from "../assets"
 
 import {useRef} from 'react'
 
-const Hero = () => {
+const Hero = ({additionalClasses}) => {
 
     const craneModel = useRef();
 
@@ -16,9 +16,9 @@ const Hero = () => {
 
 
     return(
-        <div className="">
+        <div className={`${additionalClasses}`}>
 
-            <div className="lg:flex lg:flex-row-reverse gap-20">
+            <div className="lg:flex lg:flex-row-reverse gap-20 lg:text-left text-center">
 
                 <div className="lg:w-1/2 lg:h-[40rem] relative bottom-10 right-10">
                     <Spline className={`hidden lg:block`} scene="https://prod.spline.design/O7J-RGatlVMPcOzk/scene.splinecode" />

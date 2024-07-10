@@ -1,1 +1,3 @@
-- On Hero.jsx rerender either entire Hero component or just Spline component when the window is resized
+- On Hero component, have the spline model size change if needed (check)
+- Disable scrolling (check the modern website video because it uses some package)
+- Collect more navbar components from the internet to use in websites

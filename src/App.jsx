@@ -6,10 +6,10 @@ import AboutMe from "./Components/AboutMe"
 function App() {
 
   return (
-    <div className='pt-[9rem] px-24'>
+    <div className='pt-[12rem]'>
       <Navbar />
 
-      <Hero />
+      <Hero additionalClasses={"px-24 mb-40"} />
       <AboutMe />
     </div>
   )
