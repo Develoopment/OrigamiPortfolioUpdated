@@ -1,4 +1,5 @@
 import {AboutPfp} from "../assets"
+import Heading from "../Typography/Heading"
 
 const AboutMe = () => {
     return(
@@ -9,7 +10,8 @@ const AboutMe = () => {
             </div>
 
             <div className="">
-                <h1 className="text-5xl my-4">About Me</h1>
+                <Heading>About Me</Heading>
+
                 <p className="text-xl max-w-[37.5rem] leading-normal">
                     Hey! My name is Neerraj and I have been folding origami since I was 5 years old.
                     I love folding because it's relaxing though I often lose myself and the time flies.

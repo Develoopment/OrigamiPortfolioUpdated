@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "./Components/Navbar"
 import Hero from "./Components/Hero"
 import AboutMe from "./Components/AboutMe"
+import GalleryPreview from "./Components/GalleryPreview"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 
       <Hero additionalClasses={"px-24"} />
       <AboutMe />
+      <GalleryPreview />
     </div>
   )
 }

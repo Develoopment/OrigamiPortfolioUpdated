@@ -3,5 +3,5 @@ import AboutPfp from "./aboutpfp.jpg"
 
 export {
     CTASvg,
-    AboutPfp
+    AboutPfp,
 }
