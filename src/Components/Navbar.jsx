@@ -28,7 +28,7 @@ const Navbar = () => {
 
     return(
         // main container
-        <div className={`fixed top-0 left-0 z-50 w-full`} id="hero">
+        <div className={`fixed top-0 left-0 z-50 w-full`}>
             {/* holds the rest of the items: logo and links */}
             <div className="flex items-center px-5 lg:px-7.5 lg:py-2 lg:px-24 xl:px-10 max-lg:py-4 bg-white">
 
@@ -42,6 +42,18 @@ const Navbar = () => {
                 <nav className={`${openNavigation ? `flex` : `hidden`} fixed top-[6.5rem] left-0 right-0 bottom-0 bg-white lg:static lg:flex lg:mr-0 lg:ml-auto`}>
                     <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row gap-8">
                         <a  
+                        href="#aboutme"
+                        className={
+                            `block relative text-2xl text-black transition-colors hover:text-blue-500 
+                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
+                            lg:leading-5 xl:px-12`
+                        }
+                        
+                        onClick={handleClick}>
+                            About Me
+                        </a>
+                        
+                        <a  
                         href="#gallery"
                         className={
                             `block relative text-2xl text-black transition-colors hover:text-blue-500 
@@ -51,18 +63,6 @@ const Navbar = () => {
                         
                         onClick={handleClick}>
                             Gallery
-                        </a>
-                        
-                        <a  
-                        href="#blog"
-                        className={
-                            `block relative text-2xl text-black transition-colors hover:text-blue-500 
-                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
-                            lg:leading-5 xl:px-12`
-                        }
-                        
-                        onClick={handleClick}>
-                            Blog
                         </a>
 
                         <a  
@@ -76,6 +76,18 @@ const Navbar = () => {
                         onClick={handleClick}
                         >
                             Contact
+                        </a>
+
+                        <a  
+                        href="#blog"
+                        className={
+                            `block relative text-2xl text-black transition-colors hover:text-blue-500 
+                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
+                            lg:leading-5 xl:px-12`
+                        }
+                        
+                        onClick={handleClick}>
+                            Blog
                         </a>
                     </div>
 

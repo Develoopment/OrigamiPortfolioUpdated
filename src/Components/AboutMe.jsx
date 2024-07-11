@@ -3,7 +3,7 @@ import Heading from "../Typography/Heading"
 
 const AboutMe = () => {
     return(
-        <div className="p-10 flex flex-col items-center lg:gap-20 gap-4 lg:flex-row lg:justify-center">
+        <div id="aboutme" className="p-10 flex flex-col items-center lg:gap-20 gap-4 lg:flex-row lg:justify-center">
             
             <div>
                 <img width={600} src={AboutPfp} alt="picture of myself holding up origami" />

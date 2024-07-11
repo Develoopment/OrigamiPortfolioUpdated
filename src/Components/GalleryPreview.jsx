@@ -4,7 +4,7 @@ import Heading from "../Typography/Heading"
 const GalleryPreview = () => {
     return (
         // main container
-        <div className="relative">
+        <div id="gallery" className="relative">
 
             <Heading className={"text-center"}>My Recent Models</Heading>
 
