@@ -4,6 +4,8 @@ import MenuSvg from "../assets/MenuSvg"
 
 import {useState} from 'react'
 
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
+
 const Navbar = () => {
 
 
@@ -12,18 +14,21 @@ const Navbar = () => {
     const toggleNavigation = () => {
         if (openNavigation) {
             setOpenNavigation(false);
+            enablePageScroll();
         }else{
             setOpenNavigation(true);
+            disablePageScroll();
         }
     }
 
     const handleClick = () => {
         setOpenNavigation(false);
+        enablePageScroll();
     }
 
     return(
         // main container
-        <div className={`fixed top-0 left-0 z-50 w-full`}>
+        <div className={`fixed top-0 left-0 z-50 w-full`} id="hero">
             {/* holds the rest of the items: logo and links */}
             <div className="flex items-center px-5 lg:px-7.5 lg:py-2 lg:px-24 xl:px-10 max-lg:py-4 bg-white">
 
