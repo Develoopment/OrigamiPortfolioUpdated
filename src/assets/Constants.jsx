@@ -3,6 +3,8 @@ import Dragon from "./dragon.jpg"
 import Kangaroo from "./kangaroo.jpg"
 import Crane from "./crane.jpg"
 
+import {discordBlack, twitter, instagram} from "./index"
+
 export const recentModels = [
     {
         name: "German Shepard",
@@ -30,3 +32,24 @@ export const recentModels = [
     }
 
 ]
+
+export const socials = [
+    {
+      id: "0",
+      title: "Discord",
+      iconUrl: discordBlack,
+      url: "#",
+    },
+    {
+      id: "1",
+      title: "Twitter",
+      iconUrl: twitter,
+      url: "#",
+    },
+    {
+      id: "2",
+      title: "Instagram",
+      iconUrl: instagram,
+      url: "#",
+    }
+  ];

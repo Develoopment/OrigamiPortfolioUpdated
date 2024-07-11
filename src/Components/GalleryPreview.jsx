@@ -1,4 +1,4 @@
-import {recentModels} from "../assets/RecentModels"
+import {recentModels} from "../assets/Constants"
 import Heading from "../Typography/Heading"
 
 const GalleryPreview = () => {
@@ -12,7 +12,7 @@ const GalleryPreview = () => {
 
                 {recentModels.map((model, index) => (
                     
-                    <div className="py-8 w-full h-full flex flex-col justify-center items-center gap-4 transition-all hover:shadow-xl hover:border-2">
+                    <div key={index} className="py-8 w-full h-full flex flex-col justify-center items-center gap-4 transition-all hover:shadow-xl hover:border-2">
                         
                         <div className="w-[25rem] h-[25rem]">
                             <img className="h-full w-full object-cover" src={model.imgUrl} alt={model.name} />

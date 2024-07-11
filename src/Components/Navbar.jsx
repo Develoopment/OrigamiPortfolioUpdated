@@ -1,6 +1,5 @@
 // use a index.js file in assets folder and export the images for easy destructruing later
 import Logo from "../assets/Logo.svg"
-import HamburgerMenu from "./HamburgerMenu"
 import MenuSvg from "../assets/MenuSvg"
 
 import {useState} from 'react'
@@ -35,8 +34,8 @@ const Navbar = () => {
 
                {/* links */}
                {/* the top-0 left-0 and bottom-0 stretch out the div with a flex to take over the entire screen */}
-                <nav className={`${openNavigation ? `flex` : `hidden`} fixed top-[7.5rem] left-0 right-0 bottom-0 bg-white lg:static lg:flex lg:mr-0 lg:ml-auto`}>
-                    <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+                <nav className={`${openNavigation ? `flex` : `hidden`} fixed top-[6.5rem] left-0 right-0 bottom-0 bg-white lg:static lg:flex lg:mr-0 lg:ml-auto`}>
+                    <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row gap-8">
                         <a  
                         href="#gallery"
                         className={
@@ -76,7 +75,6 @@ const Navbar = () => {
                     </div>
 
                     {/* this is the div that displays on mobile devices */}
-                    {/* <HamburgerMenu /> */}
                 </nav>
 
 
