@@ -8,22 +8,22 @@ const GalleryPreview = () => {
 
             <Heading className={"text-center"}>My Recent Models</Heading>
 
-            <div className="border-4 relative grid md:grid-cols-2 xl:grid-cols-4 place-items-center">
+            <div className="relative grid md:grid-cols-2 xl:grid-cols-4 place-items-center">
 
                 {recentModels.map((model, index) => (
                     
-                    <div key={index} className="border-2 border-red-500 py-8 w-full h-full flex flex-col justify-center 
+                    <div key={index} className="py-8 w-full h-full flex flex-col justify-center 
                     items-center gap-4 transition-all hover:shadow-xl 
                     hover:border-2">
                         
-                        <div className="w-[20rem] h-[20rem]">
+                        <div className="md:w-[20rem] md:h-[20rem]">
                             <img className="h-full w-full object-cover" 
                             src={model.imgUrl} 
                             alt={model.name} />
                         </div>
 
                         {/* text and subtext of the card */}
-                        <div className="w-[20rem]">
+                        <div className="md:w-[20rem]">
                             <h3 className="text-2xl font-medium">{model.name} by {model.designer}</h3>
                             <p className="italic text-gray-500">Folded {model.dateFolded}</p>
                         </div>

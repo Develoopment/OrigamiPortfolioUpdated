@@ -8,10 +8,10 @@ import Footer from "./Components/Footer"
 function App() {
 
   return (
-    <div className='pt-[12rem] flex flex-col gap-28 lg:gap-40 px-12'>
+    <div className='pt-[12rem] flex flex-col gap-28 lg:gap-40 px-12 overflow-x-hidden'>
       <Navbar />
 
-      <Hero additionalClasses={"px-24"} />
+      <Hero additionalClasses={""} />
       <AboutMe />
       <GalleryPreview />
       <Footer />

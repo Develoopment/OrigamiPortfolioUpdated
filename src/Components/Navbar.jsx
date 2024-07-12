@@ -34,7 +34,7 @@ const Navbar = () => {
 
                 {/* logo */}
                 <a className="block" href="#hero">
-                    <img src={Logo} width={75} height={75} alt="main logo" />
+                    <img src={Logo} width={55} height={55} alt="main logo" />
                 </a>
 
                {/* links */}
@@ -44,8 +44,8 @@ const Navbar = () => {
                         <a  
                         href="#aboutme"
                         className={
-                            `block relative text-2xl text-black transition-colors hover:text-blue-500 
-                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
+                            `block relative text-2xl text-black text-center transition-colors hover:text-blue-500 
+                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-lg
                             lg:leading-5 xl:px-12`
                         }
                         
@@ -57,7 +57,7 @@ const Navbar = () => {
                         href="#gallery"
                         className={
                             `block relative text-2xl text-black transition-colors hover:text-blue-500 
-                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
+                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-lg
                             lg:leading-5 xl:px-12`
                         }
                         
@@ -69,7 +69,7 @@ const Navbar = () => {
                         href="#contact"
                         className={
                             `block relative text-2xl text-black transition-colors hover:text-blue-500 
-                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
+                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-lg
                             lg:leading-5 xl:px-12`
                         }
                         
@@ -82,7 +82,7 @@ const Navbar = () => {
                         href="#blog"
                         className={
                             `block relative text-2xl text-black transition-colors hover:text-blue-500 
-                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-s
+                            px-20 py-6 md:py-8 lg:-mr-0.25 lg:text-lg
                             lg:leading-5 xl:px-12`
                         }
                         
