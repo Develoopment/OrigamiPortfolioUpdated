@@ -1,30 +1,33 @@
-import {GShepard, Dragon, Kangaroo, Crane} from "../assets"
+import {KNLDragon,
+  Dragon,
+  Kangaroo,
+  Goatfish} from "../assets"
 
 import {discordBlack, twitter, instagram} from "../assets"
 
 export const recentModels = [
     {
-        name: "German Shepard",
-        imgUrl: GShepard,
+        name: "Dragon",
+        imgUrl: KNLDragon,
         designer: "Robert Lang",
         dateFolded: "7/11/2024"
     },
     {
         name: "Dragon",
         imgUrl: Dragon,
-        designer: "Satoshi Kamiya",
-        dateFolded: "12/11/2022"
+        designer: "Jo Nakashima",
+        dateFolded: "12/12/2024"
     },
     {
         name: "Kangaroo",
         imgUrl: Kangaroo,
-        designer: "Laxmi Ravichandar",
-        dateFolded: "7/12/2024"
+        designer: "Jo Nakashima",
+        dateFolded: "12/12/2024"
     },
     {
-        name: "Crane",
-        imgUrl: Crane,
-        designer: "Kensuke Itachi",
+        name: "Goatfish",
+        imgUrl: Goatfish,
+        designer: "Robert Lang",
         dateFolded: "7/8/2024"
     }
 

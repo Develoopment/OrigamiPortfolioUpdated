@@ -7,10 +7,10 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import GShepard from "./shepard.jpg"
+import KNLDragon from "./knldragon.jpg"
 import Dragon from "./dragon.jpg"
 import Kangaroo from "./kangaroo.jpg"
-import Crane from "./crane.jpg"
+import Goatfish from "./goatfish.jpg"
 
 export {
     CTASvg,
@@ -22,8 +22,8 @@ export {
     telegram,
     twitter,
 
-    GShepard,
+    KNLDragon,
     Dragon,
     Kangaroo,
-    Crane
+    Goatfish
 }
