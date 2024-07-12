@@ -8,10 +8,10 @@ export default {
     "./src/**/**/*.{js,ts,jsx,tsx}",
 
     "./public/index.html",
-
-    "./public/src/**/*.{js,ts,jsx,tsx}",
-
-    "./public/src/**/**/*.{js,ts,jsx,tsx}"
+  ],
+  purge: [
+    "./src/components/**/*.{js,jsx}",
+    "./public/index.html",
   ],
   theme: {
     extend: {},
