@@ -1,5 +1,5 @@
 import React from "react";
-import { socials } from "../assets/Constants";
+import { socials } from "../constants";
 
 const Footer = () => {
   return (

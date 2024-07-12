@@ -1,6 +1,6 @@
 // use a index.js file in assets folder and export the images for easy destructruing later
 import Logo from "../assets/Logo.svg"
-import MenuSvg from "../assets/MenuSvg"
+import MenuSvg from "./MenuSvg"
 
 import {useState} from 'react'
 

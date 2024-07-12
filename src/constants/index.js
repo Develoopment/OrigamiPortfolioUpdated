@@ -1,9 +1,6 @@
-import GShepard from "./shepard.jpg"
-import Dragon from "./dragon.jpg"
-import Kangaroo from "./kangaroo.jpg"
-import Crane from "./crane.jpg"
+import {GShepard, Dragon, Kangaroo, Crane} from "../assets"
 
-import {discordBlack, twitter, instagram} from "./index"
+import {discordBlack, twitter, instagram} from "../assets"
 
 export const recentModels = [
     {

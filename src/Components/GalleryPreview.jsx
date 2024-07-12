@@ -1,4 +1,4 @@
-import {recentModels} from "../assets/Constants"
+import {recentModels} from "../constants"
 import Heading from "../Typography/Heading"
 
 const GalleryPreview = () => {
