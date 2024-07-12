@@ -9,6 +9,10 @@ export default {
 
     "./public/assets/*.{js,ts,jsx,tsx}",
 
+    ".public/**/*.{js,ts,jsx,tsx}",
+
+    ".public/**/**/*.{js,ts,jsx,tsx}"
+
   ],
   theme: {
     extend: {},
